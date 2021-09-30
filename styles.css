@@ -1,0 +1,43 @@
+
+:root{
+    --primary-color: #FBBF24;
+}
+
+*{
+    text-align:center;
+    padding: 0;
+    margin: 0;
+}
+
+.label-class{
+    display: block;
+    font-size: larger;
+    margin: 1rem auto;
+    font-weight: bolder;
+}
+
+.input-class{
+    display: block;
+    font-size: large;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+}
+
+
+#calculate-btn{
+    padding: 0.5rem;
+    margin: 2rem auto;
+    display: block;
+    font-weight: bold;
+    border: 2px solid;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+#output-div{
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
