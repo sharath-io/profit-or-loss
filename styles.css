@@ -41,3 +41,10 @@
     font-weight: bolder;
     margin-top: 2rem;
 }
+
+#caution-msg{
+    color:green;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
